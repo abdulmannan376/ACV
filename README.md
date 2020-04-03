@@ -7,10 +7,10 @@ Implementation of SegNet, UNet, and DeepLabV3plus for Semantic Segmentation of n
 ### Folder Structure
 ├── __Unet__    
 │ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── UNET.ipynb  
-│       └── model-unet.h5  
+│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── model-unet.h5  
 ├── __Segnet__    
-│       └── Segnet.ipynb    
-│       └── model-Segnet.h5    
+│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Segnet.ipynb    
+│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── model-Segnet.h5    
 ├── __DeeplabV3__    
-│      └── DeepLabv3plus.ipynb    
-│      └── model-deeplabv3plus.h5  
+│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── DeepLabv3plus.ipynb    
+│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── model-deeplabv3plus.h5  
