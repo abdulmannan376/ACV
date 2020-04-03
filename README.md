@@ -6,7 +6,7 @@ Implementation of SegNet, UNet, and DeepLabV3plus for Semantic Segmentation of n
 * Tensorflow 1.x
 ### Folder Structure
 ├── __Unet__    
-│ &nbsp;&nbsp;      └── UNET.ipynb  
+│ &nbsp;&nbsp;&nbsp;&nbsp;└── UNET.ipynb  
 │       └── model-unet.h5  
 ├── __Segnet__    
 │       └── Segnet.ipynb    
