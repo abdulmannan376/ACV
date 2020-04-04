@@ -25,7 +25,7 @@ Implementation of **SegNet**, **UNet,** and **DeepLabV3plus** for Semantic Segme
 ![segnet](Results/Segnet.png)
 #### DeeplabV3+
 ![deeplab](Results/DeeplabV3+.png)
-### Load Pretrained Model
+### Load Pretrained Model And Make Prediction
 ```
 def display_masked(image, mask, image_name="image", mask_name="mask", cells_color=[1, 1, 0], figsize = (20, 20)):
     '''
