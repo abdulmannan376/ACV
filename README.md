@@ -25,3 +25,4 @@ Implementation of **SegNet**, **UNet,** and **DeepLabV3plus** for Semantic Segme
 ![segnet](Results/Segnet.png)
 #### DeeplabV3+
 ![deeplab](Results/DeeplabV3+.png)
+### Load Pretrained Model
