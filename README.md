@@ -26,3 +26,54 @@ Implementation of **SegNet**, **UNet,** and **DeepLabV3plus** for Semantic Segme
 #### DeeplabV3+
 ![deeplab](Results/DeeplabV3+.png)
 ### Load Pretrained Model
+```
+def display_masked(image, mask, image_name="image", mask_name="mask", cells_color=[1, 1, 0], figsize = (20, 20)):
+    '''
+    Show image with its segmentation mask
+    '''
+    # resize mask as a three channel image for ploting
+    mask_resized = image.copy()
+    mask_resized[:,:,0] = mask[:,:,0]
+    mask_resized[:,:,1] = mask[:,:,0]
+    mask_resized[:,:,2] = mask[:,:,0]
+
+    # create a masked image
+    mask_ = mask.copy().round().astype(int)
+    masked_image = image.copy()
+    masked_image[:,:,0][mask_[:,:,0]==1] = cells_color[0]
+    masked_image[:,:,1][mask_[:,:,0]==1] = cells_color[1]
+    masked_image[:,:,2][mask_[:,:,0]==1] = cells_color[2]
+
+    plt.figure(figsize = figsize)
+    plt.subplot(1,3,1)
+    plt.imshow(image, 'gray')
+    plt.title(image_name)
+    plt.axis('off')
+    plt.subplot(1,3,2)
+    plt.imshow(mask_resized, 'gray')
+    plt.title(mask_name)
+    plt.axis('off')
+    plt.subplot(1,3,3)
+    plt.imshow(masked_image, 'gray')
+    plt.title("{} with {} overlapped".format(image_name, mask_name))
+    plt.axis('off')
+    plt.show()
+    return
+
+import numpy as np
+import cv2
+
+model.load_weights("Model/[model-unet.h5/model-Segnet.h5/model-deeplabv3plus.h5]")
+image_path = "[path to sample image]"
+
+sample_image = cv2.cvtColor(cv2.imread(image_path), cv2.COLOR_BGR2RGB)
+sample_image = cv2.resize(sample_image, SegNet_Configs.RESHAPE)
+sample_image = np.array(sample_image, dtype="float") / 255.0
+sample_image = np.expand_dims(sample_image, axis=0)
+
+prediction = model.predict(sample_image)
+prediction = prediction.round(0)
+
+# display the sample image along with its predicted mask
+display.display_masked(sample_image[0], prediction[0], "Tissue Image", "Predicted Mask")
+```
