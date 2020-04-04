@@ -20,5 +20,8 @@ Implementation of **SegNet**, **UNet,** and **DeepLabV3plus** for Semantic Segme
 | Segnet | 0.386 | 0.703 | 0.403 | 0.462 
 | DeeplabV3+ | 0.524 | 0.683 | 0.189 | 2.767
 #### Unet
+![unet](Results/Unet.png)
 #### Segnet
+![segnet](Results/Segnet.png)
 #### DeeplabV3+
+![deeplab](Results/DeeplabV3+.png)
