@@ -21,10 +21,7 @@ Implementation of **SegNet**, **UNet,** and **DeepLabV3plus** for Semantic Segme
 | DeeplabV3+ | 0.102 | 0.962 | 0.917 | 0.932
 #### Unet
 ![unet](Results/Unet.png)
-#### Segnet
-![segnet](Results/Segnet.png)
-#### DeeplabV3+
-![deeplab](Results/DeeplabV3+.png)
+
 Trained model has been found on this [link](https://drive.google.com/open?id=1FI45nZ8fudmkOO9InqkVpE7x6QVC1Rxh)
 ### Load Pretrained Model And Make Prediction
 ```
