@@ -23,7 +23,6 @@ Implementation of **SegNet**, **UNet,** and **DeepLabV3plus** for Semantic Segme
 | One    | Two | Three | Four    | Five  | Six   
 |-|-|-|-|-|-|  
 | Span <td colspan=3>triple  <td colspan=2>double  
-|<td colspan=3>triple</td>|<td colspan=2>double</td>   
 #### Unet
 ![unet](Results/unet_result.png)
 #### Segnet
