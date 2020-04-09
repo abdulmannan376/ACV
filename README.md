@@ -27,7 +27,7 @@ Implementation of **SegNet**, **UNet,** and **DeepLabV3plus** for Semantic Segme
   <tr>
     <td colspan="2">Three</td>
   </tr>
-</table>
+</table>  
 #### Unet
 ![unet](Results/unet_result.png)
 #### Segnet
