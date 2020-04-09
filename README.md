@@ -27,7 +27,7 @@ F1 Score             |  Dice Coefficient
 ![](Learning/Unet/unet_f1.png)  |  ![](Learning/Unet/unet_dice_coefficient.png)
 
 ### Results
-![unet](Results/unet_result.png)
+![unet](Results/Unet.png)
 #### Segnet
 ![segnet](Results/segnet_result.png)
 #### DeeplabV3+
