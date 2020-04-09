@@ -22,10 +22,9 @@ Implementation of **SegNet**, **UNet,** and **DeepLabV3plus** for Semantic Segme
 ### Learning Curves
 Accuracy             |  Loss
 :-------------------------:|:-------------------------:
-![](Results/unet_accuracy.png)  |  ![](Results/unet_loss.png)
+![](Learning/Unet/unet_accuracy.png)  |  ![](Learning/Unet/unet_loss.png)
 F1 Score             |  Dice Coefficient
-:-------------------------:|:-------------------------:
-![](Results/unet_f1.png)  |  ![](Results/unet_dice_coefficient.png)
+![](Learning/Unet/unet_f1.png)  |  ![](Learning/Unet/unet_dice_coefficient.png)
 
 ### Results
 ![unet](Results/unet_result.png)
