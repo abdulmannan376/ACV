@@ -38,11 +38,17 @@ Accuracy             |  Loss
 ![](Learning/Unet/unet_accuracy.png)  |  ![](Learning/Unet/unet_loss.png)
 F1 Score             |  Dice Coefficient
 ![](Learning/Unet/unet_f1.png)  |  ![](Learning/Unet/unet_dice_coefficient.png)
-
 ### Results
 ![unet](Results/Unet.png)
-#### Segnet
-![segnet](Results/segnet_result.png)
+### 2. Segnet
+### Learning Curves
+Accuracy             |  Loss
+:-------------------------:|:-------------------------:
+![](Learning/Segnet/segnet_accuracy.png)  |  ![](Learning/Segnet/segnet_loss.png)
+F1 Score             |  Dice Coefficient
+![](Learning/Segnet/segnet_f1.png)  |  ![](Learning/Segnet/segnet_dice_coefficient.png)
+### Results
+![segnet](Results/Segnet.png)
 #### DeeplabV3+
 ![deeplab](Results/deeplab_result.png)
 Trained model has been found on this [link](https://drive.google.com/open?id=1FI45nZ8fudmkOO9InqkVpE7x6QVC1Rxh)
