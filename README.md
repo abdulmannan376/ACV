@@ -18,19 +18,19 @@ Implementation of **SegNet**, **UNet,** and **DeepLabV3plus** for Semantic Segme
 | Model | Loss | Accuracy | F1 Score | Dice Score |
 | ----- | ---- | ---- | ---- | ---- |
 | Unet | 0.070 | 0.970 | 0.916 | 0.945 
-| Segnet | 0. | 0. | 0. | 0. 
+| Segnet | 0.275 | 0.885 | 0.711 | 0.778 
 | DeeplabV3+ | 0. | 0. | 0. | 0.  
 #### Validation
 | Model | Loss | Accuracy | F1 Score | Dice Score |
 | ----- | ---- | ---- | ---- | ---- |
 | Unet | 0.104 | 0.958 | 0.897 | 0.923 
-| Segnet | 0. | 0. | 0. | 0. 
+| Segnet | 0.289 | 0.879 | 0.697 | 0.767 
 | DeeplabV3+ | 0. | 0. | 0. | 0.  
 #### Test
 | Model | Loss | Accuracy | F1 Score | Dice Score |
 | ----- | ---- | ---- | ---- | ---- |
 | Unet | 0.333 | 0.898 | 0.733 | 0.751 
-| Segnet | 0. | 0. | 0. | 0. 
+| Segnet | 0.244 | 0.894 | 0.689 | 0.750 
 | DeeplabV3+ | 0. | 0. | 0. | 0.  
 ### 1. Unet
 ### Learning Curves
