@@ -33,7 +33,7 @@ Implementation of **SegNet**, **UNet,** and **DeepLabV3plus** for Semantic Segme
         <td>stuff</td>
         <td>stuff</td>
     </tr>
-</table>
+</table>  
 #### Unet
 ![unet](Results/unet_result.png)
 #### Segnet
