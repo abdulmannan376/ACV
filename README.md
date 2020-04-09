@@ -19,6 +19,21 @@ Implementation of **SegNet**, **UNet,** and **DeepLabV3plus** for Semantic Segme
 | Unet | 0.106 | 0.956 | 0.894 | 0.922 
 | Segnet | 0.229 | 0.903 | 0.767 | 0.825 
 | DeeplabV3+ | 0.102 | 0.962 | 0.917 | 0.932  
+<table>
+    <tr>
+        <th>Col 1</th>
+        <th>Col 2</th>
+        <th>Col 3</th>
+    </tr>
+    <tr>
+        <td colspan="2">span 2 cols</td>
+        <td rowspan="2">span 2 rows</td>
+    </tr>
+    <tr>
+        <td>stuff</td>
+        <td>stuff</td>
+    </tr>
+</table>
 #### Unet
 ![unet](Results/unet_result.png)
 #### Segnet
