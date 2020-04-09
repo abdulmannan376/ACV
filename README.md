@@ -60,9 +60,9 @@ Accuracy             |  Loss
 :-------------------------:|:-------------------------:
 ![](Learning/DeeplabV3/deeplabv3_accuracy.png)  |  ![](Learning/DeeplabV3/deeplabv3_loss.png)
 F1 Score             |  Dice Coefficient
-![](Learning/DeeplabV3/deeplabv3_f1.png)  |  ![](Learning/Deeplabv3/deeplabV3_dice_coefficient.png)
+![](Learning/DeeplabV3/deeplabv3_f1.png)  |  ![](Learning/DeeplabV3/deeplabv3_dice_coefficient.png)
 ### Results
-![segnet](Results/DeeplabV3.png)
+![segnet](Results/Deeplabv3.png)
 ### Load Pretrained Model And Make Prediction
 ```
 def display_masked(image, mask, image_name="image", mask_name="mask", cells_color=[1, 1, 0], figsize = (20, 20)):
