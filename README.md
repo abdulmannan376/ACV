@@ -13,6 +13,19 @@ Implementation of **SegNet**, **UNet,** and **DeepLabV3plus** for Semantic Segme
 │ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── model-unet.h5  
 │ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── model-Segnet.h5    
 ### Quantitatvie Results
+#### Training
+| Model | Loss | Accuracy | F1 Score | Dice Score |
+| ----- | ---- | ---- | ---- | ---- |
+| Unet | 0.106 | 0.956 | 0.894 | 0.922 
+| Segnet | 0.229 | 0.903 | 0.767 | 0.825 
+| DeeplabV3+ | 0.102 | 0.962 | 0.917 | 0.932  
+#### Validation
+| Model | Loss | Accuracy | F1 Score | Dice Score |
+| ----- | ---- | ---- | ---- | ---- |
+| Unet | 0.106 | 0.956 | 0.894 | 0.922 
+| Segnet | 0.229 | 0.903 | 0.767 | 0.825 
+| DeeplabV3+ | 0.102 | 0.962 | 0.917 | 0.932  
+#### Test
 | Model | Loss | Accuracy | F1 Score | Dice Score |
 | ----- | ---- | ---- | ---- | ---- |
 | Unet | 0.106 | 0.956 | 0.894 | 0.922 
