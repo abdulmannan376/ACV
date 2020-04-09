@@ -20,7 +20,7 @@ Implementation of **SegNet**, **UNet,** and **DeepLabV3plus** for Semantic Segme
 | DeeplabV3+ | 0.102 | 0.962 | 0.917 | 0.932  
 ### 1. Unet
 ### Learning Curves
-Solarized dark             |  Solarized Ocean
+Accuracy             |  Dice Coefficient
 :-------------------------:|:-------------------------:
 ![](Results/unet_learning_curve.png)  |  ![](Results/unet_learning_curve_1.png)
 ### Results
